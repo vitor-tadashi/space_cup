@@ -1,6 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="165CC0B8-AA72-D7DF-81F2-F176B5CB31AB">
 <createdBy>leonardo.miranda</createdBy>
+<modifiedBy>caiqu</modifiedBy>
 <createdTime>2017-10-08 12:50:32 UTC</createdTime>
 <autoRoute>false</autoRoute>
 <boxInbox>true</boxInbox>
@@ -47,7 +48,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="F1EDB672-0085-B859-924D-76848EAD9358" otype="Entity" vid="DC0466DD-9278-9A94-4174-45586DA1DE0D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="838" y="483" width="201" height="155"/>
+<bounds x="844" y="495" width="201" height="155"/>
 </OView>
 </objectViews>
 <connectors>
@@ -95,8 +96,8 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="627" y="524"/>
-<point x="838" y="535"/>
+<point x="627" y="572"/>
+<point x="844" y="572"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E581F2CF-973C-BAD1-8BFF-2EA3069EC099" otype="Relation" vid_source="0492E50B-53C1-5934-1743-DF3C1CF53111" vid_target="DB911E4B-455A-F6AD-5217-38F3C81B8DC9">
