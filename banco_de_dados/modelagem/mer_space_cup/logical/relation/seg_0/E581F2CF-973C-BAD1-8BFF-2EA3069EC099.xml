@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="E581F2CF-973C-BAD1-8BFF-2EA3069EC099">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:00:12 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="CF8DC81D-1755-93A0-9D95-E17662431214" value="true"/>
+</engineerTo>
+<sourcePk>0F26B530-F077-1279-3D02-EEC37D7CC29E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A059FFDC-CD10-F8BA-E71C-53790392E84E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B51AC8C9-8A07-5F9E-7EC1-111F170A739A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

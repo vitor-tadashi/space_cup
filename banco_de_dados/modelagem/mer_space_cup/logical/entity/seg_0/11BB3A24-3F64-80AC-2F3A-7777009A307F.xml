@@ -1,0 +1,240 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="11BB3A24-3F64-80AC-2F3A-7777009A307F" name="Lancamento">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:05:54 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LANCAMENTO" id="9C90B0CE-265D-57BB-BB91-5BDF38257BFF">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:06:04 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="ALTITUDE_MAXIMA" id="2DEDCB1F-8C30-D2D4-B501-0D6FC7AAC578">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:07:17 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="VELOCIDADE_MAXIMA" id="B52252A3-C8D0-ABC2-E8F2-D5113BAE7109">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:07:35 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="TEMPO_PROPULSAO" id="678DD28B-F87B-E3B7-9411-A022C5D29A6F">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:07:47 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="PICO_ACELERACAO" id="6A23D71F-502F-B2BB-572B-C4901643E5E3">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:08:15 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="ACELERACAO_MEDIA" id="3F3DDB03-4608-E028-B837-7199D8E3EF24">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:08:29 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="TEMPO_APOGEU_DESCIDA" id="CBB175C1-B00C-54E6-5697-FAE9F05C8A72">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:08:41 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="DISTANCIA_ALVO" id="422DC28E-B7A8-39BD-FA6A-2AAF90941B29">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:10:15 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="TEMPO_EJECAO" id="79C5C7AC-68D2-DD1A-7651-647425740A3B">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:10:28 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="ALTITUDE_EJECAO" id="41D5F7BC-070E-BBE9-E99B-3790FA5EE7AD">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:11:02 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="TAXA_DESCIDA" id="8EA956A1-E535-0D28-8E51-28F37ACF8CCC">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:11:20 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="DURACAO_VOO" id="8DD91FA5-40E5-B081-FBFE-338916CFDD53">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:11:33 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="DATA" id="43E15EB8-76F5-645D-F53B-35C2F7568214">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:13:42 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="DISTANCIA_ATE_ALVO" id="CE128F7F-7216-BE91-B101-3A1384C2AA83">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:14:32 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="ANGULO" id="DEBCE66E-8FAD-1D51-4997-DC6FF814AA71">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:15:09 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="VELOCIDADE_VENTO" id="31FDF205-844B-CDD0-8E7C-53458E14580D">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:15:38 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="ID_FOGUETE" id="3AB609A4-DA0C-38CD-4596-FEB94B6763EE">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:28:48 UTC</createdTime>
+<generatorID>6D2D487A-0DA9-8CA2-DF1D-C7EDF8B886F1</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<referedAttribute>47E23B77-4BD0-DB99-1DBC-502D44119EC6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8B1EC239-F85A-28DA-713C-8467AAB4E831" name="Lancamento PK">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:06:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="0784300F-4A29-B949-96D4-A62D5A95ACCA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9C90B0CE-265D-57BB-BB91-5BDF38257BFF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

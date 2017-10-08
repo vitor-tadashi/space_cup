@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB0F390C-1768-C0F7-CECB-C99C4685FB65" name="Foguete">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>41F89F6E-2E72-C586-A7F3-3626BFCAD703</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FOGUETE" id="812DB34D-0644-76F2-CA00-E2B9182AD2FF">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>47E23B77-4BD0-DB99-1DBC-502D44119EC6</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="EA6FE3C4-7957-D5B1-6CEE-E0DE4550BC83">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>1D4DADA6-5DFF-9414-2F51-D2B1F40EA6E3</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESO" id="F4DBF84E-B6D6-62B5-89C6-2F0340914153">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>C9206ED5-FDB8-4DDA-D058-3957BA0E4C15</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ALTRUA" id="99B86CCE-A77E-A63F-F11A-2E1C89B3CF57">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>30056C10-2EAF-F9A3-BCFD-8242BCA06E50</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_EQUIPE" id="7E90F9F5-1B7A-AF74-BFA3-9784C4BF233A">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>ABBB9AAB-3EDF-9377-AB01-84E885C13AC0</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="049CA44D-4490-1B13-146C-8BF56E9ACE80" referredColumn="D976E2D8-05C4-6767-1203-85C6FA1BD7C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00417E05-6019-9405-E710-8BB58E218B90" name="Foguete_PK">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>96DD38AB-1A1F-43A2-3848-AF601206CBAA</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="812DB34D-0644-76F2-CA00-E2B9182AD2FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05F90F72-0227-633D-1FD6-7D683F720250" name="Foguete__IDX">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E9E949F3-C552-C93B-71D3-EF62D0B73A32</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7E90F9F5-1B7A-AF74-BFA3-9784C4BF233A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C3CC922-54A8-F236-6147-21738BCF06DB" name="Foguete_Equipe_FK">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>E9E949F3-C552-C93B-71D3-EF62D0B73A32</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E90F9F5-1B7A-AF74-BFA3-9784C4BF233A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

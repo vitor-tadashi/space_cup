@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A79C93A7-B5DA-3C2F-2AC6-5F224C77E184" containerWithKeyObject="E16768FC-CD0D-E923-ED3D-5B0E51D6B157" localFKIndex="7B24F72D-CB7C-9D27-727A-8E05F641D1D9" name="Evento_Fiscal_FK">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>6A34799D-AFE8-7C67-9478-37EC10B86DE3</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43D81EA2-47CF-8CF9-5253-823731248F0C</referredTableID>
+<keyObject>21D02E25-859C-540F-4487-FFB2D4964001</keyObject>
+<referredKeyID>21D02E25-859C-540F-4487-FFB2D4964001</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="47D55FBF-2585-B1C2-E5C4-379FD4F98088" containerWithKeyObject="E16768FC-CD0D-E923-ED3D-5B0E51D6B157" localFKIndex="FCE455BE-8427-6057-B076-32E4764FB9B0" name="Evento_Endereco_FK">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>08080791-0805-4C18-4CD9-3B118E94D8A4</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>03A28341-BC6C-4D41-4A60-7E219C822010</referredTableID>
+<keyObject>EF94B528-5DF0-1D21-2A83-D10D12EE687B</keyObject>
+<referredKeyID>EF94B528-5DF0-1D21-2A83-D10D12EE687B</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E16768FC-CD0D-E923-ED3D-5B0E51D6B157" name="Evento">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>DE713559-EC8C-007A-633C-1B737CBB677C</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EVENTO" id="856A4ADC-6F61-3822-A6ED-0AD4BDA873BE">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>A305701A-5201-DC56-CBAD-5C87414202CC</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA" id="4769CEEF-833A-3FB2-F90F-08EE2A57482A">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>9C5416B4-D225-1CFF-6AB5-CF5D6F57A25D</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_FACULDADE" id="FBF77E8B-0BE4-FD79-8D12-D09B4E56E64C">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>C740D22C-AD5E-9B7C-D1DC-E949A438D775</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E0C70C0-700E-8211-E106-058FB64FEB82" referredColumn="889F61CC-9842-997D-EC9B-FC7C40B64AAB"/>
+</associations>
+</Column>
+<Column name="ID_ENDERECO" id="0CEA8EAC-91C0-008D-92EB-CB6F8195B244">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>515606B0-4151-D170-62CA-DF43F631F0D5</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47D55FBF-2585-B1C2-E5C4-379FD4F98088" referredColumn="3355FFC9-47B6-EC8C-D2BA-884A718C05E2"/>
+</associations>
+</Column>
+<Column name="ID_FISCAL" id="C3ADCC36-6E2E-1A81-D9EE-3624263789DB">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>FA44D276-679B-6E7A-69F1-50D2C2C584FD</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A79C93A7-B5DA-3C2F-2AC6-5F224C77E184" referredColumn="C5E0688A-51C1-781B-2405-18EEE3D11234"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D52F8D58-C9C0-0862-9C60-77D081A58A5F" name="Evento_PK">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>FD1710EB-FC90-5C7F-F726-8CA861BB2C69</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="856A4ADC-6F61-3822-A6ED-0AD4BDA873BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC86265F-35FC-C3A0-194B-B40C5EFA94A1" name="Evento__IDX">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>08080791-0805-4C18-4CD9-3B118E94D8A4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0CEA8EAC-91C0-008D-92EB-CB6F8195B244"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="089ADA96-EC0B-252B-5E39-CD14124F9C31" name="Evento_FACULDADE_FK">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>A4652D5C-F3FA-76EB-7A95-215B79082C5A</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBF77E8B-0BE4-FD79-8D12-D09B4E56E64C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCE455BE-8427-6057-B076-32E4764FB9B0" name="Evento_Endereco_FK">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>08080791-0805-4C18-4CD9-3B118E94D8A4</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CEA8EAC-91C0-008D-92EB-CB6F8195B244"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B24F72D-CB7C-9D27-727A-8E05F641D1D9" name="Evento_Fiscal_FK">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>6A34799D-AFE8-7C67-9478-37EC10B86DE3</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3ADCC36-6E2E-1A81-D9EE-3624263789DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

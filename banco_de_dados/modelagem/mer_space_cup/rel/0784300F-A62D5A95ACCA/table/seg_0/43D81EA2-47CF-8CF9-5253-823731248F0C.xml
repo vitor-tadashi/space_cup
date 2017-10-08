@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43D81EA2-47CF-8CF9-5253-823731248F0C" name="Fiscal">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>EEB08F80-76E9-983B-5AE7-3748674F00F1</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FISCAL" id="C5E0688A-51C1-781B-2405-18EEE3D11234">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>F49FF13C-463F-1D67-AECC-7802DB2AB0AD</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="4095712C-5E87-EC93-4ED1-85CFC78128C7">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>6CB31405-5A95-5A9C-A0A7-2A1BA62C63EF</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21D02E25-859C-540F-4487-FFB2D4964001" name="Fiscal_PK">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:58:07 UTC</createdTime>
+<generatorID>CBB62B8B-D6B0-797A-83EC-E5793B162B41</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5E0688A-51C1-781B-2405-18EEE3D11234"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

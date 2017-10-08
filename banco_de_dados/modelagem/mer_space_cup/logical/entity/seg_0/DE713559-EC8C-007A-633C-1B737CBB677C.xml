@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE713559-EC8C-007A-633C-1B737CBB677C" name="Evento">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 12:51:10 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="CF8DC81D-1755-93A0-9D95-E17662431214" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_EVENTO" id="A305701A-5201-DC56-CBAD-5C87414202CC">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 12:51:58 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="CF8DC81D-1755-93A0-9D95-E17662431214" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="DATA" id="9C5416B4-D225-1CFF-6AB5-CF5D6F57A25D">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 12:53:08 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="CF8DC81D-1755-93A0-9D95-E17662431214" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Attribute>
+<Attribute name="ID_FACULDADE" id="C740D22C-AD5E-9B7C-D1DC-E949A438D775">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 13:52:30 UTC</createdTime>
+<generatorID>A4652D5C-F3FA-76EB-7A95-215B79082C5A</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="CF8DC81D-1755-93A0-9D95-E17662431214" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C36A85B0-88E8-15C6-F42E-29FD6802B205</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="ID_ENDERECO" id="515606B0-4151-D170-62CA-DF43F631F0D5">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:04:02 UTC</createdTime>
+<generatorID>08080791-0805-4C18-4CD9-3B118E94D8A4</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="CF8DC81D-1755-93A0-9D95-E17662431214" value="true"/>
+</engineerTo>
+<referedAttribute>B5F17D69-1AE1-2423-9422-98CE4260FC1D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+<Attribute name="ID_FISCAL" id="FA44D276-679B-6E7A-69F1-50D2C2C584FD">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 14:06:47 UTC</createdTime>
+<generatorID>6A34799D-AFE8-7C67-9478-37EC10B86DE3</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="CF8DC81D-1755-93A0-9D95-E17662431214" value="true"/>
+</engineerTo>
+<referedAttribute>F49FF13C-463F-1D67-AECC-7802DB2AB0AD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD1710EB-FC90-5C7F-F726-8CA861BB2C69" name="Evento PK">
+<createdBy>leonardo.miranda</createdBy>
+<createdTime>2017-10-08 12:52:16 UTC</createdTime>
+<generatorID>Gerado pelo usuário</generatorID>
+<ownerDesignName>mer_space_cup</ownerDesignName>
+<engineerTo>
+<item key="CF8DC81D-1755-93A0-9D95-E17662431214" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A305701A-5201-DC56-CBAD-5C87414202CC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
