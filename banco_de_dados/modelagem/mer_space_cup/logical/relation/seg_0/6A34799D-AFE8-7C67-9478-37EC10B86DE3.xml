@@ -4,12 +4,9 @@
 <createdTime>2017-10-08 14:06:47 UTC</createdTime>
 <generatorID>Gerado pelo usuário</generatorID>
 <ownerDesignName>mer_space_cup</ownerDesignName>
-<engineerTo>
-<item key="CF8DC81D-1755-93A0-9D95-E17662431214" value="true"/>
-</engineerTo>
 <sourcePk>CBB62B8B-D6B0-797A-83EC-E5793B162B41</sourcePk>
 <identifying>false</identifying>
-<optionalSource>false</optionalSource>
+<optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>EEB08F80-76E9-983B-5AE7-3748674F00F1</sourceEntity>
