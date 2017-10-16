@@ -10,7 +10,7 @@ BEGIN TRANSACTION
 
 	INSERT INTO SC_Evento VALUES (GETDATE(), 'Space Cup 2017', 1, 1, 1)
 
-	INSERT INTO SC_Turma VALUES ('2SIS', 'Sistemas de InformaÁ„o', 1)
+	INSERT INTO SC_Turma VALUES ('2SIS', 'Sistemas de Informa√ß√£o', 1)
 
 	INSERT INTO SC_Foguete VALUES ('Apollo 13', 0.15, 0.8)
 
@@ -19,7 +19,7 @@ BEGIN TRANSACTION
 	INSERT INTO SC_Aluno VALUES ('Leonardo Miranda', 1)
 	INSERT INTO SC_Aluno VALUES ('Tamyris Miranda', 1)
 	INSERT INTO SC_Aluno VALUES ('Caique Cury', 1)
-	INSERT INTO SC_Aluno VALUES ('Lucas Jord„o', 1)
+	INSERT INTO SC_Aluno VALUES ('Lucas Jord√£o', 1)
 	INSERT INTO SC_Aluno VALUES ('Bianca Caravajo', 1)
 
 	INSERT INTO SC_Lancamento VALUES (20, 40, 10, 50, 45, 30, 100, 10, 15, 11, 20, GETDATE(), 100, 90, 50, 1)
