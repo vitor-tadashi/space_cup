@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3283EB2A-C2F4-3B54-9BC3-6A7C8708728B" mainViewID="165CC0B8-AA72-D7DF-81F2-F176B5CB31AB">
-<createdBy>leonardo.miranda</createdBy>
-<createdTime>2017-10-08 12:48:30 UTC</createdTime>
-<generatorID>Gerado pelo usuário</generatorID>
-<ownerDesignName>mer_space_cup</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
